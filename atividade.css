@@ -3,3 +3,52 @@
 
 }
 
+.exemplo{
+    font-size: 2em;
+}
+
+.html{
+    font-size: 20px;
+}
+
+.contaner{
+    font-size: 10px;
+}
+
+.exemplo1{
+    font-size: 2em;
+}
+
+.exemplo2{
+    font-size: 2rem;
+}
+
+.exemplo3{
+    font-size: 2rem;
+}
+
+body{
+    background: url(https://th.bing.com/th/id/R.4f78133edfa33f600576b1b5d86c11c4?rik=ZVri3mUPfr33BQ&riu=http%3a%2f%2fwww.filhovemver.com.br%2fwp-content%2fuploads%2f2014%2f11%2fsol-ponte.jpg&ehk=4j8KxlgwVuvub0zpRSBq5CAYxON7WmbTxFcTr5RTP%2bY%3d&risl=1&pid=ImgRaw&r=0);
+}
+
+body{
+    background: rgb(249,225,238);
+    background: linear-gradient(90deg,  rgba(249,225,238,1)10%, rgba(190,231,249,1)100%);
+}
+
+body{
+    p.dotted {border-style: dotted;}
+    p.dashed {border-style: dashed;}
+    p.solid  {border-style: solid;}
+    p.double {border-style: double;}
+    p.groove {border-style: groove;}
+    p.ridge  {border-style: ridge;}
+    p.inset  {border-style: inset;}
+    p.outset { border-style: outset;}
+    p.none {border-style: none;}
+    p.hidden {border-style: hidden;}
+    p.mix {border-style: dotted dashed solid double;}
+}
+
+
+}
