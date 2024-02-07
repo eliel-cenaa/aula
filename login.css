@@ -2,15 +2,19 @@ form{
     display: flex;
     flex-direction: column;
     width: 300px;
+    background-color: beige;
+    padding: 100px;
     
 }
 button{ 
-    background-color: red;
+    background-color: burlywood
 }
 body{ 
     display: flex;
     align-items: center;
     height: 100vh;
     justify-content: center ;
+background-color: aquamarine;
+
     
 }
