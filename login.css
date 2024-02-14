@@ -1,20 +1,32 @@
-form{
+form {
     display: flex;
     flex-direction: column;
     width: 300px;
     background-color: beige;
     padding: 100px;
-    
+    position: relative;
+
 }
-button{ 
+
+button {
     background-color: burlywood
 }
-body{ 
+
+body {
     display: flex;
     align-items: center;
     height: 100vh;
-    justify-content: center ;
-background-color: aquamarine;
+    justify-content: center;
+    background-color: aquamarine;
 
-    
+
+}
+
+.didi {
+    display: flex;
+}
+
+.pessoa {
+    margin: 0 auto;
+    margin-top: -125px;
 }
