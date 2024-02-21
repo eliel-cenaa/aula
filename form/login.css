@@ -5,7 +5,7 @@ form {
     background-color: beige;
     padding: 100px;
     position: relative;
-
+    gap: 10px;
 }
 
 button {
@@ -24,6 +24,8 @@ body {
 
 .didi {
     display: flex;
+    justify-content: center;
+    gap: 20px;
 }
 
 .pessoa {
@@ -32,4 +34,19 @@ body {
 }
 .flex{
     display: flex;
+}
+p, a{
+    text-align: center;
+}
+.divii{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+}
+input{
+    padding:5px;
+}
+button{
+    padding: 5px;
 }
