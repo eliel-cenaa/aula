@@ -1,7 +1,17 @@
+*{
+    margin: 0;
+}
 .cordefundo{
-    background-color: black;
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.247);
     color: white;
-    border-radius: 30px;
+    border-radius: 100px;
     padding: 30px;
-    
+ 
+}
+.text-grande{
+    font-size: 100px;
+}
+.um{ 
+  
 }
