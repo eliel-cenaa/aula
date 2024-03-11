@@ -15,6 +15,7 @@ body{
     color: rgb(241, 238, 238);
     border-radius: 100px;
     padding: 30px;
+    gap: 10px;
   
 }
 .text-grande{
@@ -32,3 +33,13 @@ h3{
 .margin{
     margin-bottom: 10px;
 }
+.text-medio{
+    font-size: 30px;
+}
+.text-medi{
+    font-size: 30px ;
+}
+h3{
+    text-align: center;
+}
+
