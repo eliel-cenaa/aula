@@ -11,6 +11,8 @@ body{
 }
 .cordefundo{
     display: flex;
+    justify-content: center;
+    align-items: center ;
     background-color: rgba(102, 66, 66, 0.699);
     color: rgb(241, 238, 238);
     border-radius: 100px;
