@@ -16,6 +16,11 @@ p {
 h1 {
     background-image: url(./mirrorfashion/img/sobre-background.jpg);
 }
+figure {
+background-color: #f2eded;
+border: 1px solid #ccc;
+text-align: center;
+}
 
 
 
