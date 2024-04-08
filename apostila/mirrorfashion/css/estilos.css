@@ -16,11 +16,35 @@ p {
 h1 {
     background-image: url(./mirrorfashion/img/sobre-background.jpg);
 }
-figure {
-background-color: #f2eded;
-border: 1px solid #ccc;
-text-align: center;
-}
+
+.sacola {
+    background-image: url(../img/sacola.png);
+    background-repeat:no-repeat;
+    background-position: top right;
+     
+    font-size: 14px;
+    padding-right: 35px;
+    text-align: right;
+    width: 140px;
+    }
+    .menu-opçoes ul{
+     font-size: 15px;
+    }
+    .menu-opçoes a {
+        color: #003366;
+    }
+    body {
+        color: #333333;
+        font-family: "lucida sans unicode", "lucida grande", sans-serif
+    }
+    .container {
+        margin-right: auto;
+        margin-left: auto;
+    }
+    
+    
+        
+    
 
 
 
