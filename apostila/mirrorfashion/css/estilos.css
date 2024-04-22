@@ -133,3 +133,42 @@ text-decoration: none;
 .mais-vendidos {
   background-color: #DCDCF5;
 }
+input[value] {
+color: #cc0000;
+}
+input[type="text"] {
+  border-radius: 4px;
+}
+div[class|="menu"] {
+  border-radius: 4px;
+}
+input[value~="problema"] {
+  color: #cc0000;
+}
+input[name^="usuario"] {
+  color: #99ffcc;
+}
+input[name$="teste"] {
+  background-color: #ccff00;
+}
+input[name*="tela"] {
+  color: #666666;
+}
+.facebook {
+  height: 55px;
+  width: 85px;
+
+  background-image: url(../imgfacebook.png);
+
+  text-indent: -9999px;
+}
+footer {
+  background-image: url(../img/fundo-rodape.png);
+}
+.social a {
+  height: 32px;
+  width: 32px;
+}
+.social a[href*="facebook.com"] {
+  background-image: url(../img/facebook.png);
+}
