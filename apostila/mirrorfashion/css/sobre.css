@@ -101,3 +101,6 @@ figure {
     border: 1px solid #ccc;
     text-align: center;
     }
+    p::first-letter {
+        font-weight: bold;
+    }
