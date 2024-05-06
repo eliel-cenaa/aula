@@ -205,4 +205,21 @@ footer .container {
 
   text-indent: -9999px;
 }
-
+h2 ~ p {
+  font-style: italic;
+}
+h2+ p {
+  font-variant: small-caps;
+}
+h1 {
+  color: blue;
+}
+article > h1 {
+  color: blue;
+}
+li:first-child {
+color:red
+}
+li:last-child {
+  color:blue;
+}
