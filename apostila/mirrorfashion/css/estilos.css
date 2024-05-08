@@ -223,3 +223,29 @@ color:red
 li:last-child {
   color:blue;
 }
+.menu-opcoes a:hover {
+  color: #c63f00;
+}
+.menu-opcoes a:active {
+  color: #867dc6;
+}
+.menu-departamentos a:hover {
+  color: #c63f00;
+}
+.menu-departamentos a:active {
+  color: #867dc6;
+}
+.menu-departamentos li ul {
+  displey: none;
+}
+.menu-departamentos li:hover ul {
+  display: block;
+}
+.menu-departamentos ul ul li {
+  background-color: #DCDCDC;
+}
+.menu-departamentos li li a:before {
+  content: '- ';
+}.menu-departamentos li li a:before {
+content: '';
+}
