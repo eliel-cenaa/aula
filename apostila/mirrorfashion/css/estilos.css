@@ -247,5 +247,25 @@ li:last-child {
 .menu-departamentos li li a:before {
   content: '- ';
 }.menu-departamentos li li a:before {
-content: '';
+content: '\272A';
+padding-right: 3px;
 }
+.painel h2:before {
+  content: '\2756';
+  padding-right: 5px;
+  opacity: 0.4;
+}
+:not(p)+p::first-line{
+  font-variant: small-caps;
+}
+.painel {
+  border-radius: 4px;
+  box-shadow: 1px 1px 4px #999;
+}
+.painel h2 {
+  text-shadow: 3px 3px 2px #FFF;
+}
+.painel {
+  box-shadow: inset 1px 1px 4px #999;
+}
+
