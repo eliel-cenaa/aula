@@ -268,4 +268,44 @@ padding-right: 3px;
 .painel {
   box-shadow: inset 1px 1px 4px #999;
 }
+.novidades {
+  background: linear-gradient(#f5dcdc, #bebef4);
+}
+.mais-vendidos {
+  background: linear-gradient(#dcdcf5, #f4bebe);
+}
+#teste{
+  position: relative;
+  top: 10px;
+}
+#teste:hover {
+  top: 30px;
+}
+#teste:hover {
+  transition: top 2s;
+
+
+  #teste {
+  position: relative;
+  top: 10px;
+  color: white;
+}
+#teste:hover {
+  top: 30px;
+color: red;
+transition: top 2s, color 1s ease;
+}
+.painel li:hover {
+  box-shadow: 0 0 5px #333;
+  transition: box-shadow 0.7s;
+}
+.painel li:hover {
+background-color: rgba(255, 255, 255,0.8);
+box-shadow: 0 0 5px #333;
+transition: 0.7s;
+}
+.painel li:hover {
+  transform: scale(1.2) rotate(-5deg);
+}
+
 
