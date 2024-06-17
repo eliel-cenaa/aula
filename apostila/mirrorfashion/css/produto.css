@@ -6,7 +6,7 @@
     width: 50px;
     height: 50px;
 }
-laberl [for=verde]::after {
+label[for=verde]::after {
     background-color: #33cc66;
 }
 label[for=rosa]::after {
@@ -20,20 +20,20 @@ label[for=azul]::after {
 }
 .cores label::after {
     box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    position:absolute;
+    top: 30px;
+
 }
-.cores input [type=radio] {
+.cores input[type=radio] {
     display: none;
 }
 .cores input:not(:checked) + label img{
     display: none;
 }
-.cores label::after{
-    position:absolute;
-    top: 30px;
-}
 .cores {
     position: relative;
-    padding-top: 90px;
+    padding-top: 80px;
 }
 label[for=verde]::after {
     left: 0;
@@ -54,7 +54,7 @@ label[for=azul]::after {
     margin: top 2em;
 }
 .produto h1{
-    font-size: 18em;
+    font-size: 1.8em;
     font-weight: bold;
 }
 .produto p {
@@ -91,4 +91,40 @@ label[for=azul]::after {
 .cores label::after {
     cursor: pointer;
 }
-
+@media (min-width: 600px) {
+    img {
+        float: left;
+    }
+}
+@media (min-width: 630px) {
+    .produto {
+        position: relative;
+        padding-left: 40%;
+    }
+}
+.cores {
+    position:static;
+    padding: 0;
+}
+.cores legend {
+    position: static;
+}
+.cores label img {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.cores label:after {
+    position: static;
+    float: left;
+}
+.cores label img {
+    max-width: 353%;
+    max-height: 1000%;
+}
+.produto {
+    font-size: 1.2em;
+}
+.cores label:after {
+margin-right: 10px;
+}
