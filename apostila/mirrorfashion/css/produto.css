@@ -51,7 +51,8 @@ label[for=azul]::after {
 .produto {
     color: #333;
     line-height: 1.3;
-    margin: top 2em;
+    margin-top: 2em;
+    
 }
 .produto h1{
     font-size: 1.8em;
@@ -64,7 +65,7 @@ label[for=azul]::after {
 }
 .produto legend {
     display: block;
-    font: bold 0.9em/2.5 arial;
+    font: bold 0.9em/2.5 Arial;
     text-transform: uppercase;
 }
 .comprar {
@@ -91,40 +92,41 @@ label[for=azul]::after {
 .cores label::after {
     cursor: pointer;
 }
-@media (min-width: 600px) {
-    img {
-        float: left;
-    }
+.produto p{
+    text-align: left;
 }
 @media (min-width: 630px) {
+    label img {
+        float: left;
+    }
     .produto {
         position: relative;
         padding-left: 40%;
     }
-}
-.cores {
-    position:static;
-    padding: 0;
-}
-.cores legend {
-    position: static;
-}
-.cores label img {
-    position: absolute;
-    top: 0;
-    left: 0;
-}
-.cores label:after {
-    position: static;
-    float: left;
-}
-.cores label img {
-    max-width: 353%;
-    max-height: 1000%;
-}
-.produto {
-    font-size: 1.2em;
-}
-.cores label:after {
-margin-right: 10px;
+    .cores {
+        position:static;
+        padding: 0;
+    }
+    .cores legend {
+        position: static;
+    }
+    .cores label img {
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    .cores label:after {
+        position: static;
+        float: left;
+    }
+    .cores label img {
+        max-width: 35%;
+        max-height: 100%;
+    }
+    .produto {
+        font-size: 1.2em;
+    }
+    .cores label:after {
+    margin-right: 10px;
+    }
 }
