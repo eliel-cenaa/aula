@@ -54,4 +54,24 @@ margin: 1em 0;
 min-width: 240px;
 width: 45%;
 }
-
+table {
+	border-spacing: 0,2em;
+	border-collapse: separate;
+}
+thead {
+	background-color:#999;
+}
+thead th {
+	font-weight: bold;
+	padding: 0.3em 1em;
+	text-align: center;
+}
+td {
+	padding: 0.3em;
+}
+tr:nth-child(2n) {
+	background-color: #ccc;
+}
+td:first-child {
+	font-style: italic;
+}

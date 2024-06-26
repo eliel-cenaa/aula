@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>mirror fashion</title>
     <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="css/estilos.css" />
@@ -11,7 +11,7 @@
   <body>
     <header class="container">
       <!--conteudo do cabeçario-->
-      <h1><img src="img/logo.png" alt="logo da mirror fashion"></h1>
+      <h1><img src="img/logo.png" alt="logo da mirror fashion" /></h1>
       <p class="sacola">nenhum item na sacola de compras</p>
       <nav class="menu-opcoes">
         <ul>
@@ -23,98 +23,111 @@
         </ul>
       </nav>
     </header>
-    <div class="container">
-      <div class="produto">
-        <h1>fuzzy cardigan</h1>
-        <p>por apenas R$ 129,90</p>
-        <form>
-          <fieldset class="cores">
-            <legend>escolha a cor:</legend>
+    <div class="produto-back">
+      <div class="container">
+        <div class="produto">
+          <h1>fuzzy cardigan</h1>
+          <p>por apenas R$ 129,90</p>
+          <form>
+            <fieldset class="cores">
+              <legend>escolha a cor:</legend>
 
-            <input type="radio" name="cor" value="verde" id="verde" checked />
-            <label for="verde">
-              <img
-                src="img/produtos/foto1-verde.png"
-                alt="produto na cor verde"
+              <input type="radio" name="cor" value="verde" id="verde" checked />
+              <label for="verde">
+                <img
+                  src="img/produtos/foto1-verde.png"
+                  alt="produto na cor verde"
+                />
+              </label>
+
+              <input type="radio" name="cor" value="rosa" id="rosa" />
+              <label for="rosa">
+                <img
+                  src="img/produtos/foto1-rosa.png"
+                  alt="produto na cor rosa"
+                />
+              </label>
+
+              <input type="radio" name="cor" value="azul" id="azul" />
+              <label for="azul">
+                <img
+                  src="img/produtos/foto1-azul.png"
+                  alt="produto na cor azul"
+                />
+              </label>
+            </fieldset>
+            <fieldset class="tamanhos">
+              <legend>escolha o tamanhos:</legend>
+              <input
+                type="range"
+                min="36"
+                max="46"
+                value="42"
+                step="2"
+                name="tamanho"
+                id="tamanhos"
               />
-            </label>
+            </fieldset>
 
-            <input type="radio" name="cor" value="rosa" id="rosa" />
-            <label for="rosa">
-              <img
-                src="img/produtos/foto1-rosa.png"
-                alt="produto na cor rosa"
-              />
-            </label>
+            <button class="comprar">comprar</button>
+          </form>
+          <table>
+            <caption>
+              quantidade e preço de camisetas.
+            </caption>
 
-            <input type="radio" name="cor" value="azul" id="azul" />
-            <label for="azul">
-              <img
-                src="img/produtos/foto1-azul.png"
-                alt="produto na cor azul"
-              />
-            </label>
-          </fieldset class="tamanhos">
-          <legend>escolha o tamanhos:</legend>
-          <input type="range" min="36" max="46" value="42" step="2" name="tamanho" id="tamanhos">
-          </fieldset>
-          
-          <button class="comprar">comprar</button>
-        </form>
-        <table>
-          <caption>quantidade e preço de camisetas.</caption>
-          
-          <colgroup>
-            <col width="10%">
-            <col width="40%">
-            <col width="30%">
-            <col width="20%">
-          </colgroup>
+            <colgroup>
+              <col width="10%" />
+              <col width="40%" />
+              <col width="30%" />
+              <col width="20%" />
+            </colgroup>
 
-          <thead>
-            <tr>
-              <th rowspan="2"></th>
-              <th colspan="2">quantidade de camisetas</th>
-              <th rowspan="2">preço</th>
-            </tr>
-            <tr>
-              <th>amarela</th>
-              <th>vermelha</th>
-            </tr>
-          </thead>
+            <thead>
+              <tr>
+                <th rowspan="2"></th>
+                <th colspan="2">quantidade de camisetas</th>
+                <th rowspan="2">preço</th>
+              </tr>
+              <tr>
+                <th>amarela</th>
+                <th>vermelha</th>
+              </tr>
+            </thead>
 
-          <tfoot>
-            <tr>
-              <td>
-              </td>
-              <td>total de camisetas amarelas: 35</td>
-              <td>total de camisetas vermelhas: 34</td>
-              <td>valor total: $45,00</td>
-            </tr>
-          </tfoot>
+            <tfoot>
+              <tr>
+                <td></td>
+                <td>total de camisetas amarelas: 35</td>
+                <td>total de camisetas vermelhas: 34</td>
+                <td>valor total: $45,00</td>
+              </tr>
+            </tfoot>
 
-          <tbory>
-            <tr>
-              <td>polo</td>
-              <td>12</td>
-              <td>5</td>
-              <td>$30,00</td>
-            </tr>
-            <tr>
-              <td>regata</td>
-              <td>23</td>
-              <td>29</td>
-              <td>$15,00</td>
-            </tr>
-          </tbory>
-        </table>
-      </div>
-      <div class="detalhes">
-        <h2>detalhes do produto</h2>
-        <p>esse é o melhor casaco de cardigã que voce já viu. excelente 
-          material italiano com estampa desenhada pelos artesãos da 
-          comunidade de krotor nas ilhas gregas. compre já e receba hoje
-          mesmo pela nossa entrega a jato.</p>
+            <tbory>
+              <tr>
+                <td>polo</td>
+                <td>12</td>
+                <td>5</td>
+                <td>$30,00</td>
+              </tr>
+              <tr>
+                <td>regata</td>
+                <td>23</td>
+                <td>29</td>
+                <td>$15,00</td>
+              </tr>
+            </tbory>
+          </table>
+        </div>
+        <div class="detalhes">
+          <h2>detalhes do produto</h2>
+          <p>
+            esse é o melhor casaco de cardigã que voce já viu. excelente
+            material italiano com estampa desenhada pelos artesãos da comunidade
+            de krotor nas ilhas gregas. compre já e receba hoje mesmo pela nossa
+            entrega a jato.
+          </p>
           <table>
             <theada>
               <tr>
@@ -141,15 +154,13 @@
               </tr>
             </tbory>
           </table>
+        </div>
       </div>
     </div>
     <footer>
       <div class="container">
-        <img
-          src="img/logo-rodape.png"
-          alt="logo da mirror fashion"
-           />
-          <!-- conteudo  do rodapé -->
+        <img src="img/logo-rodape.png" alt="logo da mirror fashion" />
+        <!-- conteudo  do rodapé -->
         <ul class="social">
           <li><a href="http://facebook.com/mirrorfashion">facebook</a></li>
           <li><a href="http://twitter.com/mirrorfashion">twitter</a></li>
