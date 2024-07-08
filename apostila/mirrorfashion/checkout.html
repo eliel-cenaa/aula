@@ -6,11 +6,12 @@
     <title>mirror fashion</title>
     <link rel="stylesheet" href="css/reset.css" />
     <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
-      integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N"
-      crossorigin="anonymous"
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+    integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N"
+    crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="css/open-iconic-bootstrap.css">
     <link rel="stylesheet" href="css/open-iconic-bootstrap.css">
   </head>
   <body>
@@ -37,12 +38,14 @@
 
               <div class="form-group">
                 <label for="nome">nome completo</label>
-                <input type="text" class="form-control" id="nome" name="nome">
+                <input type="text" class="form-control" id="nome" name="nome" autofocus>
+                <input type="email" class="form-control" id="email" name="email" placeholder="email@exemplo.com">
               </div>
 
               <div class="form-group">
                 <label for="cpf">cpf</label>
                 <input type="text" class="form-control" id="cpf" name="cpf">
+                <input type="text" class="form-control" id="cpf" name="cpf" placeholder="000.000.000-00">
               </div>
 
               <div class="form-group custom-control custom-checkbox">
@@ -52,6 +55,34 @@
                 </label>
               </div>
             </fieldset>
+
+            <fieldset>
+              <legend>cartão de credito</legend>
+
+              <div class="form-group">
+                <label for="numero-cartão">número - cvv</label>
+                <input type="text" class="form-control" id="numero-cartão" name="numero-cartão">
+              </div>
+
+              <div class="form-group">
+                <label for="bandeira-cartão">bandeira</label>
+                <select> class="custom-select" id="bandeira-cartão">
+                  <option disabled selected>selecione uma opção...</option>
+                  <option value="master">mastercard</option>
+                  <option value="visa">VISA</option>
+                  <option value="amex">american express</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label for="validade-cartão">validade</label>
+                <input type="month" class="form-control" id="validade-cartão" name="validade-cartão">
+              </div>
+            </fieldset>
+            <button type="submit" class="btn-primary">
+              <span class="oi oi-thumb-up"></span>
+              confirmar pedido
+            </button>
           </form>
 
 
