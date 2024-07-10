@@ -6,15 +6,34 @@
     <title>mirror fashion</title>
     <link rel="stylesheet" href="css/reset.css" />
     <link
-    rel="stylesheet"
-    href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
-    integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N"
-    crossorigin="anonymous"
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+      integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N"
+      crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="css/open-iconic-bootstrap.css">
-    <link rel="stylesheet" href="css/open-iconic-bootstrap.css">
+    <link rel="stylesheet" href="css/open-iconic-bootstrap.css" />
+    <link rel="stylesheet" href="css/open-iconic-bootstrap.css" />
   </head>
   <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+     <a class="navbar-brand" href="index.html">mirror fashion</a>
+
+     <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="sobre.html">sobre</a>
+      </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">ajuda</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">perguntas frequentes</a>
+    </li>
+  </ul>
+</nav>
+
+  <li class="nav-item">
+    <a class="nav-link" href="#">entre em contato</a>
+  </li>
     <div class="jumbotron jumbotron-fluid">
       <div class="container">
         <h1 class="display-4">ótima escolha!</h1>
@@ -25,82 +44,126 @@
       </div>
     </div>
     <div class="container">
-      <div class="card mb-3">
-        <div class="card-header">
-          sua compra
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card mb-3">
+            <div class="card-header">sua compra</div>
+            <div class="card-body">
+              <img
+                src="img/produtos/foto1-verde.png"
+                alt="fuzzy cardigan"
+                class="img-thumbnail mb-3"
+              />
+
+              <dl>
+                <dt>produto</dt>
+                <dd>fuzzy cardigan</dd>
+
+                <dt>cor</dt>
+                <dd>verde</dd>
+
+                <dt>tamanho</dt>
+                <dd>40</dd>
+
+                <dt>preço</dt>
+                <dd>R$ 129,90</dd>
+              </dl>
+            </div>
+          </div>
         </div>
-        <div class="card-body">
-          <img src="img/produtos/foto1-verde.png" alt="fuzzy cardigan"
-          class="img-thumbnail mb-3">
-          <form action="/efetivar.html" method="post">
-            <fieldset>
-              <legend>dados pessoais</legend>
+        <form class="col-md-8">
+          <div class="row">
+           <fieldset class="col-lg-6">
+                  <legend>dados pessoais</legend>
 
-              <div class="form-group">
-                <label for="nome">nome completo</label>
-                <input type="text" class="form-control" id="nome" name="nome" autofocus>
-                <input type="email" class="form-control" id="email" name="email" placeholder="email@exemplo.com">
+                  <div class="form-group">
+                    <label for="nome">nome completo</label>
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="nome"
+                      name="nome"
+                      autofocus
+                    />
+                    <input
+                      type="email"
+                      class="form-control"
+                      id="email"
+                      name="email"
+                      placeholder="email@exemplo.com"
+                    />
+                  </div>
+
+                  <div class="form-group">
+                    <label for="cpf">cpf</label>
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="cpf"
+                      name="cpf"
+                    />
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="cpf"
+                      name="cpf"
+                      placeholder="000.000.000-00"
+                    />
+                  </div>
+
+                  <div class="form-group custom-control custom-checkbox">
+                    <input
+                      type="checkbox"
+                      class="custom-control-input"
+                      id="newsletter"
+                      value="sim"
+                      checked
+                    />
+                    <label class="custom-control-label" for="newsletter">
+                      quero receber newsletter da mirror fashion
+                    </label>
+                  </div>
+                </fieldset>
+                <fieldset class="col-lg-6">
+                  <legend>cartão de credito</legend>
+
+                  <div class="form-group">
+                    <label for="numero-cartão">número - cvv</label>
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="numero-cartão"
+                      name="numero-cartão"
+                    />
+                  </div>
+
+                  <div class="form-group">
+                    <label for="bandeira-cartão">bandeira</label>
+                    <select>
+                      class="custom-select" id="bandeira-cartão">
+                      <option disabled selected>selecione uma opção...</option>
+                      <option value="master">mastercard</option>
+                      <option value="visa">VISA</option>
+                      <option value="amex">american express</option>
+                    </select>
+                  </div>
+
+                  <div class="form-group">
+                    <label for="validade-cartão">validade</label>
+                    <input
+                      type="month"
+                      class="form-control"
+                      id="validade-cartão"
+                      name="validade-cartão"
+                    />
+                  </div>
+                </fieldset>
               </div>
-
-              <div class="form-group">
-                <label for="cpf">cpf</label>
-                <input type="text" class="form-control" id="cpf" name="cpf">
-                <input type="text" class="form-control" id="cpf" name="cpf" placeholder="000.000.000-00">
-              </div>
-
-              <div class="form-group custom-control custom-checkbox">
-                <input type="checkbox" class="custom-control-input" id="newsletter" value="sim" checked>
-                <label class="custom-control-label" for="newsletter">
-                  quero receber newsletter da mirror fashion
-                </label>
-              </div>
-            </fieldset>
-
-            <fieldset>
-              <legend>cartão de credito</legend>
-
-              <div class="form-group">
-                <label for="numero-cartão">número - cvv</label>
-                <input type="text" class="form-control" id="numero-cartão" name="numero-cartão">
-              </div>
-
-              <div class="form-group">
-                <label for="bandeira-cartão">bandeira</label>
-                <select> class="custom-select" id="bandeira-cartão">
-                  <option disabled selected>selecione uma opção...</option>
-                  <option value="master">mastercard</option>
-                  <option value="visa">VISA</option>
-                  <option value="amex">american express</option>
-                </select>
-              </div>
-
-              <div class="form-group">
-                <label for="validade-cartão">validade</label>
-                <input type="month" class="form-control" id="validade-cartão" name="validade-cartão">
-              </div>
-            </fieldset>
-            <button type="submit" class="btn-primary">
-              <span class="oi oi-thumb-up"></span>
-              confirmar pedido
-            </button>
-          </form>
-
-
-
-          <dl>
-            <dt>produto</dt>
-            <dd>fuzzy cardigan</dd>
-
-            <dt>cor</dt>
-            <dd>verde</dd>
-
-            <dt>tamanho</dt>
-            <dd>40</dd>
-
-            <dt>preço</dt>
-            <dd>R$ 129,90</dd>
-          </dl>
-        </div>
+                <button type="submit" class="btn-primary">
+                  <span class="oi oi-thumb-up"></span>
+                  confirmar pedido
+                </button>  
+        </form>
       </div>
     </div>
   </body>
