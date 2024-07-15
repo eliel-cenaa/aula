@@ -109,3 +109,6 @@ h1 + p {
 p::first-line {
     font-variant: small-caps;
 }
+body {
+  padding-top: 55px;
+}
