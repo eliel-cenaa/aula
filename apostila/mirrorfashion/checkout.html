@@ -13,12 +13,18 @@
     />
     <link rel="stylesheet" href="css/open-iconic-bootstrap.css" />
     <link rel="stylesheet" href="css/open-iconic-bootstrap.css" />
-    <link rel="stylesheet" href="css/checkout.css">
+    <link rel="stylesheet" href="css/checkout.css" />
+    <script>
+      alert("olá, mundo!");
+    </script>
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
       <button class="navbar-toggler" type="button">
-        <data-toggle="collapse" data-targert="#navbartoggleExternalcontent"></data-toggle>
+        <data-toggle
+          ="collapse"
+          data-targert="#navbartoggleExternalcontent"
+        ></data-toggle>
         <span class="navbar-toggler-icon"></span>
       </button>
       <a class="navbar-brand" href="index.html">mirror fashion</a>
@@ -35,12 +41,12 @@
             <a class="nav-link" href="#">perguntas frequentes</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#"entre em contato></a>
+            <a class="nav-link" href="#" entre em contato></a>
           </li>
         </ul>
       </div>
     </nav>
-    
+
     <div class="jumbotron jumbotron-fluid">
       <div class="container">
         <h1 class="display-4">ótima escolha!</h1>
@@ -73,11 +79,21 @@
                 <dd>40</dd>
 
                 <dt>preço</dt>
-                <dd>R$ 129,90</dd>
+                <dd id="preco">R$ 129,90</dd>
+    
               </dl>
+              <div class="form-group">
+                <label for="qtd">quantidade</label>
+                <input type="number" id="qtd" min="1" max="99" value="1" class="form-control">
+              </div>
+              <div class="form-group">
+                <label for="total">total:</label>
+                <output for="qtd preco" id="total" class="form-control">R$129,90</output>
+              </div>
             </div>
           </div>
         </div>
+        
         <form class="col-md-8">
           <div class="row">
             <fieldset class="col-lg-6">
