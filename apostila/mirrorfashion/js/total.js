@@ -14,3 +14,14 @@ $input_quantidade.oninput = function(){
 
     $output_total.value = total;
 }
+
+var palavras = 0
+for (let i = 0; i < palavras.length; i++) {
+    alert(palavras[i]);
+}
+
+function soma(x, y) {
+    return x+y
+}
+
+console.log(soma(10,10))
