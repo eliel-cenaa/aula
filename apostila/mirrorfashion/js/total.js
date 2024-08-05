@@ -25,3 +25,11 @@ function soma(x, y) {
 }
 
 console.log(soma(10,10))
+
+    document.querySelector('input[type=email]').oninvalid = function () {
+        this.setCustomValidity ("");
+        if (!this.validity.valid) {
+            this.setCustomValidity("Email inválido");
+
+        }
+    };

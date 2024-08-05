@@ -18,3 +18,14 @@ controle.onclick = function() {
     }
     return false;
 }
+document.querySelector('#destaque').addEventListener('click', function() {
+    trocabanner();
+})
+
+document.querySelector('form input').oninvalid = function(event){
+    
+    event.preventDefault();
+ if (!this.validity.valid) {
+    alert("nome obrigatório!");
+ }
+};
