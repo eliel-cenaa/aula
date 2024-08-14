@@ -477,3 +477,9 @@ transition: 0.7s;
 .painel button:hover::after {
   border-top-color: #393939;
 }
+body{
+  font-family: 'PT Sans', sans-serif;
+}
+.painel h2 {
+  font-family: 'Bad Script';
+}
